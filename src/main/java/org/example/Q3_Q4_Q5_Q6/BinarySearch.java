@@ -1,4 +1,4 @@
-package org.example.Q3_Q4;
+package org.example.Q3_Q4_Q5_Q6;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,7 +11,8 @@ public class BinarySearch {
     @Autowired
     Sorting sorting;
 
-    BinarySearch(Sorting sorting) {
+
+    public BinarySearch(Sorting sorting) {
         this.sorting = sorting;
     }
 
